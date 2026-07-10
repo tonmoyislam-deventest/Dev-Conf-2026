@@ -1,12 +1,23 @@
-*{
+* {
     padding: 0;
     margin: 0;
     /* padding and border will not increase box height and width */
-    box-sizing: border-box; 
-}
-.common-blue{
-    background-color: #1D4ED8;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
 
+}
+
+.common-btn {
+    background-color: #1D4ED8;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+
+
+}
+
+.common-white {
+    color: #FFFFFF;
 }
 
 .main-section-p-60 {
@@ -15,42 +26,85 @@
 }
 
 /* navbar section start */
-nav{
+nav {
     background-color: #FFFFFF;
     padding: 15px 0px;
-    
+
 }
 
 
-.nav-parrent{
+.nav-parrent {
     display: flex;
     justify-content: space-between;
     align-items: center;
     max-width: 1320px;
     margin: 0 auto;
-    
+
 }
 
-.nav-parrent > ul{
+.nav-parrent>ul {
     display: flex;
     list-style: none;
-    gap:24px;
+    gap: 24px;
 }
 
-.nav-parrent > ul a {
+.nav-parrent>ul a {
     text-decoration: none;
     color: #575757;
 }
 
-.nav-btn{
+.nav-parrent button {
     padding: 15px 46px;
     border-radius: 10px;
     font-size: 16px;
-    color: #FFFFFF;
-    border: none;
-    outline: none;
-    
 }
+
 /* navbar section end */
 
 /* header section start */
+header {
+    height: calc(100vh - 78px);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.4) 50%, rgba(205, 133, 133, 0.106) 100%), url("./assets/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+
+}
+
+.hero-parrent {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.hero-parrent>.hero-content {
+    font-size: 20px;
+    text-align: center;
+}
+
+.hero-parrent h1 {
+    font-size: 80px;
+    letter-spacing: -3.2px;
+    margin-bottom: 20px;
+}
+
+.hero-parrent p {
+    line-height: 25px;
+    font-weight: 200;
+
+}
+
+.hero-parrent button {
+    padding: 20px 62px;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 100px;
+
+}
+
+/* header section end */
