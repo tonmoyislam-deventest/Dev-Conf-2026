@@ -4,7 +4,6 @@
     /* padding and border will not increase box height and width */
     box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
-
 }
 
 .common-btn {
@@ -12,8 +11,6 @@
     color: #FFFFFF;
     border: none;
     outline: none;
-
-
 }
 
 .common-white {
@@ -22,16 +19,13 @@
 
 .main-section-p-60 {
     padding: 0px 60px;
-
 }
 
 /* navbar section start */
 nav {
     background-color: #FFFFFF;
     padding: 15px 0px;
-
 }
-
 
 .nav-parrent {
     display: flex;
@@ -39,7 +33,6 @@ nav {
     align-items: center;
     max-width: 1320px;
     margin: 0 auto;
-
 }
 
 .nav-parrent>ul {
@@ -106,5 +99,57 @@ header {
     margin-top: 100px;
 
 }
-
 /* header section end */
+
+/* main section start */
+/* Meet the Speakers section */
+main>section:first-child {
+    padding: 70px 60px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+main>section>h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 56px;
+}
+
+.Speakers-card-parrent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+    padding-top: 50px;
+}
+
+.card-common-style {
+    border: 1px solid rgba(119, 116, 116, 0.169);
+    border-radius: 12px;
+
+}
+
+.card-common-style img {
+    width: 100%;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 24px;
+
+}
+
+.card-content h2 {
+    font-size: 20px;
+}
+
+.card-content small {
+    color: #1D4ED8;
+}
+
+.card-content span {
+    font-size: 14px;
+}
