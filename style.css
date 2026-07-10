@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* padding and border will not increase box height and width */
+    box-sizing: border-box; 
+}
+.common-blue{
+    background-color: #1D4ED8;
+
+}
+
+.main-section-p-60 {
+    padding: 0px 60px;
+
+}
+
+/* navbar section start */
+nav{
+    background-color: #FFFFFF;
+    padding: 15px 0px;
+    
+}
+
+
+.nav-parrent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1320px;
+    margin: 0 auto;
+    
+}
+
+.nav-parrent > ul{
+    display: flex;
+    list-style: none;
+    gap:24px;
+}
+
+.nav-parrent > ul a {
+    text-decoration: none;
+    color: #575757;
+}
+
+.nav-btn{
+    padding: 15px 46px;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    
+}
+/* navbar section end */
+
+/* header section start */
