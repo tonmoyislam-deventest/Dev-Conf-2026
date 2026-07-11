@@ -297,16 +297,20 @@ main > section:nth-child(3) {
   align-items: center;
 }
 
-.second-content i {
+.enhance-i{
   display: inline-flex !important;
-  width: 60px !important;
-  height: 60px;
   justify-content: center;
   align-items: center;
-  font-size: 30px;
   border-radius: 50%;
   background-color: #e5dbf89b;
   box-shadow: 1px 1px 100px 5px rgb(154, 105, 233);
+  
+}
+.second-content i {
+  width: 60px !important;
+  height: 60px;
+  font-size: 30px;
+
 }
 
 .second-content img {
@@ -360,15 +364,9 @@ footer {
   gap: 14px;
 }
 .footer-right i {
-  display: inline-flex !important;
   width: 30px !important;
   height: 30px;
-  justify-content: center;
-  align-items: center;
   font-size: 16px;
-  border-radius: 50%;
-  background-color: #e5dbf89b;
-  box-shadow: 1px 1px 100px 5px rgb(154, 105, 233);
 }
 footer hr {
   margin: 20px 0px;
