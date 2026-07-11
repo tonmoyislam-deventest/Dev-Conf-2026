@@ -1,155 +1,264 @@
 * {
-    padding: 0;
-    margin: 0;
-    /* padding and border will not increase box height and width */
-    box-sizing: border-box;
-    font-family: "Open Sans", sans-serif;
+  padding: 0;
+  margin: 0;
+  /* padding and border will not increase box height and width */
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
 }
 
 .common-btn {
-    background-color: #1D4ED8;
-    color: #FFFFFF;
-    border: none;
-    outline: none;
+  background-color: #1d4ed8;
+  color: #ffffff;
+  border: none;
+  outline: none;
 }
 
 .common-white {
-    color: #FFFFFF;
+  color: #ffffff;
 }
 
 .main-section-p-60 {
-    padding: 0px 60px;
+  padding: 0px 60px;
 }
 
 /* navbar section start */
 nav {
-    background-color: #FFFFFF;
-    padding: 15px 0px;
+  background-color: #ffffff;
+  padding: 15px 0px;
 }
 
 .nav-parrent {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1320px;
-    margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1320px;
+  margin: 0 auto;
 }
 
-.nav-parrent>ul {
-    display: flex;
-    list-style: none;
-    gap: 24px;
+.nav-parrent > ul {
+  display: flex;
+  list-style: none;
+  gap: 24px;
 }
 
-.nav-parrent>ul a {
-    text-decoration: none;
-    color: #575757;
+.nav-parrent > ul a {
+  text-decoration: none;
+  color: #575757;
 }
 
 .nav-parrent button {
-    padding: 15px 46px;
-    border-radius: 10px;
-    font-size: 16px;
+  padding: 15px 46px;
+  border-radius: 10px;
+  font-size: 16px;
 }
 
 /* navbar section end */
 
 /* header section start */
 header {
-    height: calc(100vh - 78px);
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.4) 50%, rgba(205, 133, 133, 0.106) 100%), url("./assets/banner.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right center;
-
+  height: calc(100vh - 78px);
+  background-image:
+    linear-gradient(
+      to right,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(0, 0, 0, 0.4) 50%,
+      rgba(205, 133, 133, 0.106) 100%
+    ),
+    url("./assets/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right center;
 }
 
 .hero-parrent {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-between;
-    justify-content: space-around;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  justify-content: space-around;
 }
 
-.hero-parrent>.hero-content {
-    font-size: 20px;
-    text-align: center;
+.hero-parrent > .hero-content {
+  font-size: 20px;
+  text-align: center;
 }
 
 .hero-parrent h1 {
-    font-size: 80px;
-    letter-spacing: -3.2px;
-    margin-bottom: 20px;
+  font-size: 80px;
+  letter-spacing: -3.2px;
+  margin-bottom: 20px;
 }
 
 .hero-parrent p {
-    line-height: 25px;
-    font-weight: 200;
-
+  line-height: 25px;
+  font-weight: 200;
 }
 
 .hero-parrent button {
-    padding: 20px 62px;
-    border-radius: 10px;
-    font-size: 24px;
-    font-weight: bold;
-    margin-top: 100px;
-
+  padding: 20px 62px;
+  border-radius: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 100px;
 }
+
 /* header section end */
 
 /* main section start */
-/* Meet the Speakers section */
-main>section:first-child {
-    padding: 70px 60px;
-    max-width: 1440px;
-    margin: 0 auto;
+/* Meet the Speakers section start */
+main > section:first-child {
+  padding: 70px 60px;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
-main>section>h1 {
-    text-align: center;
-    font-weight: bold;
-    font-size: 56px;
+main > section > h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 56px;
 }
 
 .Speakers-card-parrent {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto;
-    gap: 20px;
-    padding-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  gap: 20px;
+  padding-top: 50px;
 }
 
 .card-common-style {
-    border: 1px solid rgba(119, 116, 116, 0.169);
-    border-radius: 12px;
-
+  border: 1px solid rgba(119, 116, 116, 0.169);
+  border-radius: 12px;
 }
 
 .card-common-style img {
-    width: 100%;
-    border-radius: 12px 12px 0px 0px;
+  width: 100%;
+  border-radius: 12px 12px 0px 0px;
 }
 
 .card-content {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    padding: 24px;
-
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 24px;
 }
 
 .card-content h2 {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .card-content small {
-    color: #1D4ED8;
+  color: #1d4ed8;
 }
 
 .card-content span {
-    font-size: 14px;
+  font-size: 14px;
+}
+
+/* Meet the Speakers section End */
+
+/* Secure Your Spot section start */
+main > section:nth-child(2) {
+  max-width: 1440px;
+  padding: 0px 60px 80px 60px;
+  margin: 0 auto;
+}
+
+main > section:nth-child(2) > h2,
+main > section:nth-child(2) > p {
+  text-align: center;
+}
+
+main > section:nth-child(2) > h1 {
+  font-size: 48px;
+}
+
+main > section:nth-child(2) > p {
+  margin-top: 12px;
+  color: #575757;
+}
+
+.price-card-parrent {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding-top: 48px;
+}
+
+.price-card {
+  padding: 32px;
+  width: 370px;
+  border-radius: 12px;
+  background-color: #f8f9fb;
+  border: 1px solid #e5e7eb;
+}
+
+.price-card small {
+  color: #888888;
+}
+
+.price-card hr {
+  margin: 20px 0px;
+  border: 1px solid #e5e7eb;
+}
+
+.price-card ul li::marker {
+  /* Change list bullet color to blue */
+  color: #2563eb;
+}
+
+.price-card li {
+  line-height: 30px;
+  font-size: 14px;
+  color: #333333;
+}
+
+.price-card button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px 0px;
+  border-radius: 8px;
+  border: 1px solid #2563eb;
+  color: #2563eb;
+  font-weight: 600;
+  background: none;
+}
+
+/* pro card */
+#premium-price-card {
+  background-color: #0d1b2a;
+}
+
+#premium-price-card small:first-child {
+  font-weight: 600;
+  color: #93c5fd;
+}
+
+#premium-price-card h1 {
+  color: #ffffff;
+}
+
+#premium-price-card hr {
+  border-color: #ffffff1b;
+}
+
+#premium-price-card ul li::marker {
+  color: #60a5fa;
+}
+
+#premium-price-card li {
+  color: #c8c3c3;
+}
+
+#premium-price-card button {
+  background-color: #2563eb;
+  color: #ffffff;
+}
+
+#team-btn {
+  border: 1px solid #0d1b2a;
+  color: #0d1b2a;
 }
