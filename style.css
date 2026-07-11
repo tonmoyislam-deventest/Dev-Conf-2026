@@ -262,3 +262,65 @@ main > section:nth-child(2) > p {
   border: 1px solid #0d1b2a;
   color: #0d1b2a;
 }
+
+/* Why Attend Devconf 2026 secion */
+main > section:nth-child(3) {
+  max-width: 1351px;
+  padding: 40px 30px 60px 30px;
+  margin: 0 auto;
+  border-radius: 15px;
+  background-color: #e5dbf862;
+}
+
+.first-content {
+  text-align: center;
+}
+
+.first-content > p:first-child {
+  color: #7c3aed;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.first-content h1 {
+  margin-bottom: 15px;
+}
+
+.first-content p {
+  margin-bottom: 25px;
+  font-size: 14px;
+}
+
+.second-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.second-content i {
+  display: inline-flex !important;
+  width: 60px !important;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  border-radius: 50%;
+  background-color: #e5dbf89b;
+  box-shadow: 1px 1px 100px 5px rgb(154, 105, 233);
+}
+
+.second-content img {
+  width: 450px;
+  height: 300px;
+  border-radius: 12px;
+  box-shadow: 6px 6px 20px -5px rgb(154, 105, 233);
+}
+
+.second-content h3,
+.second-content p {
+  padding-top: 10px;
+}
+
+.second-content p {
+  font-size: 14px;
+}
